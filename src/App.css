@@ -1,5 +1,7 @@
+
 .App {
-  text-align: center;
+  /* text-align: center; */
+/* margin-left: 2%; */
 }
 
 .App-logo {
@@ -35,4 +37,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body{
+    background: linear-gradient(to top, #647b95, #fff);
+}
+
+.mainpage{
+   padding: 5px 30px;
+}
+.mainpage > h1 {
+    text-align: center;
+}
+.mainpage > div{
+    width: 80%;
+    border-radius : 5px;
+    margin: auto;
+    padding : 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.6) ;
+}
+h3{
+   color:crimson;
+}
+p{
+   font-size :20px;
+}
+h2 {
+  text-align: center;
+}
+.visit{
+    display:flex;
+    flex-direction: flex-end;
 }
